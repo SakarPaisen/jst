@@ -22,6 +22,9 @@ Create a project with the official initializer:
 
 ```bash
 npm create jst@latest my-app
+# or, with pnpm
+pnpm create jst@latest my-app
+
 cd my-app
 npm run dev
 ```
@@ -35,7 +38,7 @@ JST requires Node.js 24 LTS and supports npm and pnpm. Released CLI, template, a
 
 The full architecture walkthrough and working API/persistence flows live in the independent [JST Showcase](https://github.com/jst-stack/jst-showcase), pinned here as the `showcase` Git submodule. Generated applications do not include it.
 
-Create the reference application deliberately with `npm create jst@latest my-demo -- --example showcase`.
+Create the reference application deliberately with `npm create jst@latest my-demo -- --example showcase`, or with pnpm: `pnpm create jst@latest my-demo -- --example showcase`.
 
 ## Included
 
